@@ -7,9 +7,9 @@ export default function StockButton() {
       style={{
         display: "inline-flex",
         boxSizing: "border-box",
-        width: "178px",
+        width: "auto", /*178px*/ 
         height: "40px",
-        padding: "8px 12px 8px 12px",
+        padding: "8px 20px", /*8px 12px 8px 12px*/
         alignItems: "center",
         gap: "8px",
         borderRadius: "50px",
